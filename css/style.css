@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+body{
+	font-family: 'Libre Baskerville', serif; 
+}
+
+:root{
+  	--f7-theme-color:#2291ff;
+  	--f7-navbar-bg-color: #2291ff; /*navbar*/
+  	--f7-navbar-text-color:#fff; /*color texto navbar*/
+	--f7-bars-link-color:#fff; /*color íconos navbar*/
+  	--f7-bars-bg-color:#fff; /*toolbar*/
+	--f7-tabbar-link-inactive-color: #0e3746;
+	--color-azul:#0B445F;
+	--color-cafe:#421E1E;
+	--color-notif:#B04229;
+	--color-gris: ##707070;
+
+}
+.page-content{
+	background-image: url("../img/a144c2f3a45a92561858b869b0093b98.jpg");
+}
+.title{
+	font-size: 50px;
+	text-align: center;
+	color: var(--color-cafe);
+}
+.bar-subtitle{
+	font-size: 15px;
+	text-align: center;
+	color: var(--color-cafe);
+}
+.fondo{
+	margin: auto;
+	background: rgba(255,255,255, 0.4);
+    height: 90%;
+	width: 95%;
+	margin-top: 13px;
+	top: 0;
+    left: 0;
+	border-radius: 35px;
+	position: fixed;
+	margin-left: 10px;
+}
+.bulb{
+	color: var(--color-notif) !important;
+	margin-top: 18%;
+}
+.trash{
+	color: var(--color-notif) !important;
+	margin-top: 21%;
+}
+.ord{
+	color: var(--color-gris) !important;
+	margin-top: 23%;
+}
+.row{
+	padding: 10px 0;
+    text-align: center;
+	font-weight: bold;
+}
+.col item-text{
+	background-color: white;
+}
+.article col{
+	background-color: white;
+}
+.span{
+	padding: 9px 0;
+	padding-left: 31px;
+	font-size: 13px;
+}
+.notif{
+	margin-top: 20px;
+    margin-left: 25px;
+    padding-bottom: 0.5px;
+    width: 85%;
+    height: 12%;
+    border-radius: 50px;
+    background-color: white;
+}
+.img-fluid{
+	max-width: 100%;
+	display: block;
+	border-radius: 18px;
+}
+.barra{
+	
+}
+#list-products .item-media img{
+	width: 80px;
+}
+.productos .card-header .candy {
+    padding: 20px;
+}
+.boton{
+	background-color: var(--color-notif);
+	color: white;
+	text-align: center;
+	border-radius: 25px;
+	margin-top: 50px;
+	margin: 25px;
+}
+.bebidas{
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.col-50 .i{
+	margin-top: 100px;
+}
+.text-align-left {
+    text-align: left!important;
+	margin-left: 5%;
+} 
+.card{
+	width: 163px;
+    height: 163px;
+	display: block;
+	background-color: var(--color-azul);
+}
+.card-title{
+	text-align: center;
+	color: white;
+}
+
+.productos .card-header{
+	padding: 0;
+}
+.productos .card-header .candy{
+	padding: 15px;
+}
+.block-title{
+	text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+	color: var(--color-azul);
+}
+.productos .card-header img{
+	text-align: center;
+	height: auto; 
+    width: 100px; 
+	margin: auto;
+	object-fit: cover;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	padding-top: 5px;
+}
+.material-icons{
+	color: white;
+	font-size: 40px;
+}
+.toolbar-inner{
+	background-color: var(--color-azul);
+}
+.col.chok{
+	margin-top: 2%;
+    margin-left: -10%;
+}
+.col.chok2{
+	margin-top: -1%;
+    margin-left: -10%;
+	width: 25%;
+	height: 25%;
+}
+h5{
+    margin-left: -11%;
+    margin-top: 2%;
+}
+.login-screen-title{
+	font-size: 4.5em;
+	padding-top: 30%;
+}
+
+#login input{
+	width: 345px;
+	padding-left: 10%;
+	margin-top: 5%; 
+	border-radius: 50px;
+	background-color: #fff;
+}
+.md .buttom{
+    transition-duration: .3s;
+    transform: translate3d(0,0,0);
+    margin: 10px;
+    padding-top: 5%;
+    padding-bottom: 14%;
+    border-radius: 50px;
+    font-size: 19px;
+}
+.item-title{
+	font-size: 2em;
+	font-weight: 700;
+	margin-top: 10%;
+}
+
+.b-si{
+	background-color: var(--color-button);
+}
+
+#usuario .img-usr{
+	border-radius: 100px;
+	margin-left: 24%;
+	margin-top: 30%;
+}
+
+.usr-fondo{
+	margin: 0 5%;
+	padding-right: 10%;
+	background: rgba(255,255,255, 0.4);
+	margin-top: 13px;
+	border-radius: 35px;
+}
+
+.usr-list{
+	list-style: none;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border-bottom: 2px solid;
+}
+.usr-texto{
+	color: #121212;
+	font-size: 20px;
+}
+.prd-fondo{
+	margin: 0 5%;
+	padding: 15% 10%;
+	background: rgba(255,255,255, 0.4);
+	margin-top: 13px;
+	border-radius: 35px;
+}
+
+.carro-fondo{
+	margin: 0 5%;
+	padding: 15% 10%;
+	background: rgba(255,255,255, 0.4);
+	margin-top: 13px;
+	border-radius: 35px;
+}
+
+.item-fondo{
+	background: rgba(255,255,255, 0.01);
+}
+
+.b-ca2{
+	color: #000;
+	background-color: #fff;
+	padding: 1% 0;
+	margin: 5% 0;
+}
+
+.b-ca{
+	margin-top: 15%;
+	background-color: var(--color-button);
+}
+
+.fa-check{
+	margin: 10% 30%;
+	font-size: 3em;
+	padding: 10%;
+	background-color: var(--color-button);
+	border-radius: 100px;
+}
+
